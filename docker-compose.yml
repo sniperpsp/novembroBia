@@ -1,7 +1,7 @@
 version: "3"
 services:
   server:
-    build: .
+    image: 730335588602.dkr.ecr.us-east-1.amazonaws.com/bia-ecr:latest
     container_name: bia
     ports:
       - 80:8080
